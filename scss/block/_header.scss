@@ -1,0 +1,45 @@
+.header {
+background-color: $darkGreen;
+}
+
+.header__inner{
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.header__nav {
+    @include list;
+    width: 100%;
+    align-items: center;
+    li:nth-child(1) {
+        display: flex;
+        flex: 1;
+    }
+    a {
+        text-decoration: none;
+        color: #FBFAF7;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: right;
+        margin-right: 24px;
+    }
+    .header__btn {
+        color: #FBFAF7;
+        background: #198C36;
+        border-radius: 160px;
+        padding: 15px 25px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: right;
+        cursor: pointer;
+        border: none;
+        transition: all ease-in 0.2s;
+        &:hover {
+            background-color: #fff;
+            color: #198C36;
+        }
+    }
+}

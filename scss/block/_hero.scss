@@ -1,0 +1,32 @@
+.hero {
+    background-color: $darkGreen;
+    background-image: url(../../img/hero_bg.png);
+    background-repeat: no-repeat;
+    background-position:bottom right 40px ;
+}
+
+.hero__inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__title {
+    width: 470px;
+    margin: 125px 0;
+
+    h2 {
+        font-family: 'Recoleta';
+        width: 420px;
+        font-weight: 600;
+        font-size: 45px;
+        line-height: 65px;
+        color: #FBFAF7;
+    }
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FBFAF7;
+        margin-top: 18px;
+    }
+}
