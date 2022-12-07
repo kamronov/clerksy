@@ -335,6 +335,9 @@ body {
   width: 350px;
   height: 393px;
 }
+.suggest_card--list:nth-child(2) {
+  height: 430px;
+}
 .suggest_card--list h2 {
   font-family: "Recoleta";
   font-style: normal;
@@ -439,7 +442,7 @@ body {
 }
 
 .book {
-  background-color: #E5E5E5;
+  background-color: #fffefe;
   padding: 130px 0px;
 }
 
@@ -484,6 +487,11 @@ body {
 .book__title a:hover {
   color: #198C36;
   background-color: #fff;
+}
+
+.book__img {
+  width: 490px;
+  height: 487px;
 }
 
 .get {
@@ -545,7 +553,7 @@ body {
 
 .signUp {
   background-color: #F2EFE6;
-  padding: 60px 0;
+  padding: 60px 0 75px 0;
 }
 
 .signUp__inner {
@@ -581,14 +589,14 @@ body {
   background: #FFFFFF;
   border: 1px solid #F2EFE6;
   border-radius: 255px;
-  width: 500px;
-  padding: 17px 10px;
+  width: 550px;
+  padding: 17px 15px;
   font-size: 16px;
 }
 .signUp__right button {
   position: absolute;
   top: 1px;
-  right: 55px;
+  right: 5px;
   width: 111px;
   font-weight: 400;
   font-size: 16px;
@@ -622,4 +630,65 @@ body {
   line-height: 21px;
   color: #198C36;
   text-decoration: none;
+}
+
+.footer {
+  background-color: #ffffff;
+  padding-top: 44px;
+  padding-bottom: 24px;
+}
+
+.footer__inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__up {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  align-items: center;
+  border-bottom: 1px solid #F2EFE6;
+  padding-bottom: 40px;
+}
+.footer__up h2 {
+  font-family: "Recoleta";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #163A24;
+}
+
+.footer__icons {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+.footer__icons li {
+  margin-left: 14px;
+}
+
+.footer__down {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.footer__down p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #163A24;
+}
+.footer__down .down__list {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+.footer__down .down__list li {
+  margin-left: 14px;
+}
+.footer__down .down__list li a {
+  text-decoration: none;
+  color: #198C36;
 }/*# sourceMappingURL=main.css.map */

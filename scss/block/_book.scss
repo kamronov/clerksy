@@ -1,5 +1,5 @@
 .book {
-    background-color: #E5E5E5;
+    background-color: #fffefe;
     padding: 130px 0px;
 }
 .book__inner {
@@ -44,4 +44,8 @@
             background-color: #fff;
         }
     }
+}
+.book__img {
+    width: 490px;
+    height: 487px;
 }

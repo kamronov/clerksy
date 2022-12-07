@@ -75,9 +75,9 @@
     padding: 50px 0 66px 40px;
     width: 350px;
     height: 393px;
-    // &:hover {
-    //     height: 430px;
-    // }
+    &:nth-child(2) {
+        height: 430px;
+    }
     h2 {
         font-family: 'Recoleta';
         font-style: normal;
