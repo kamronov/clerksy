@@ -1,0 +1,86 @@
+.easy {
+    background-color: #F2EFE6;
+    padding: 120px;
+    background-image: url(../../img/krug.png);
+    background-repeat: no-repeat;
+    background-position: bottom 165px right 110px;
+}
+.easy__inner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../../img/strelka1.png), url(../../img/strelka2.png);
+    background-repeat: no-repeat;
+    background-position: top 195px left 290px,  top 190px right 320px;
+
+}
+
+.easy__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    h2 {
+        font-family: 'Recoleta';
+        font-weight: 600;
+        font-size: 47px;
+        line-height: 54px;
+        text-align: center;
+        color: #163A24;
+        margin-bottom: 26px;
+    }
+    h5 {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        color: #163A24;
+    }
+
+}
+
+.easy__progress {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 46px;
+    .easy__time {
+        width: 260px;
+
+        p {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            text-align: center;
+            color: #163A24;
+            margin-bottom: 13px;
+        }
+        h2 {
+            font-family: 'Recoleta';
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 32px;
+            text-align: center;
+            color: #163A24;
+        }
+    }
+}
+.easy__btn {
+    padding: 15px 25px;
+    background: #198C36;
+    border-radius: 160px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FBFAF7;
+    border: none;
+    cursor: pointer;
+    transition: all ease 0.3s;
+    &:hover {
+        background-color: #fff;
+        color: #198C36;
+    }
+}
